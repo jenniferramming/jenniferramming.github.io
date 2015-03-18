@@ -1,4 +1,7 @@
 body{
+	
+	margin-top: 400px;
+	background: url(header.jpg) no-repeat center top fixed;
 	background-color: #E6E7E8;
 	color: #203367;
 	text-align: center;
