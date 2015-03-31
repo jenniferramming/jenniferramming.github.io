@@ -46,9 +46,9 @@ a {
 
 }
 
-/*a:hover {
-	color: #528b8b;*/
-
+a:hover {
+	color: #528b8b;
+	border-bottom: 2px solid #528b8b;
 }
 
 ul {
