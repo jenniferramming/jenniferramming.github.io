@@ -33,7 +33,9 @@ h1 {
 	text-align: center;
 }
 
-h2 {
+h3 {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
 }
 
 p{
@@ -62,7 +64,7 @@ ul {
 }
 
 .wrapper {
-	width: 75%;
+	width: 80%;
 	margin: 0 auto;
 }
 
@@ -107,7 +109,8 @@ height: 0;
 
 #abouttext {
 	color: white;
-	line-height: 1.618;
+	line-height: 1.618em;
+	margin-top: 1.618em;
 }
 
 #profilepic {
@@ -119,7 +122,7 @@ height: 0;
 }
 
 .aboutwrapper {
-	width: 50%;
+	width: 60%;
 	display: block;
 	margin: 0 auto;
 }
@@ -137,4 +140,5 @@ font-size: 14px;
 @media only screen and (max-width: 480px) {
 body{
 font-size: 13px;
+float: none;
 }
