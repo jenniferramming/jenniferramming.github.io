@@ -1,0 +1,140 @@
+body{
+	background-color: #E6E7E8;
+	color: #203367;
+
+	margin: 0;
+	font-size: 16px;
+}
+
+header{
+	height:275px;
+}
+
+
+#topbar{
+	background-color: #203367;
+	height:175px;
+	width:100%;
+}
+
+#logo{
+	width:200px;
+	margin:0 auto;
+	position: relative;
+	top:55%;
+
+}
+
+h1 {
+	font-size: 2.6em;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	padding: .75em 0em 1.25em 0em;
+	text-align: center;
+}
+
+h2 {
+}
+
+p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	line-height: 1.618em;
+
+}
+
+a {
+	color: #203367;
+	text-decoration: none;
+	border-bottom: 2px solid #203367;
+	padding-bottom: 2px;
+
+}
+
+a:hover {
+	color: #528b8b;
+	border-bottom: 2px solid #528b8b;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+.wrapper {
+	width: 75%;
+	margin: 0 auto;
+}
+
+#contact {
+	font-size: 1.125em;
+	color: #203367;
+	font-family: 'Oswald', sans-serif;
+	padding: 1.618em;
+	text-align: center;
+}
+
+.container {
+	background:white;
+	width: 275px;
+	padding: 1em;
+	border: .1em #838b8b solid;
+	border-radius: .5em;
+	margin: 1.618em;
+	float: left;
+}
+
+.clearfix:after { 
+visibility: hidden; 
+display: block; 
+font-size: 0; 
+content: " "; 
+clear: both; 
+height: 0; 
+}
+
+.row {
+	display: block;
+
+}
+
+#bottombar{
+	background-color: #203367;
+	height:175px;
+	width:100%;
+	margin-top: 3em;
+}
+
+#abouttext {
+	color: white;
+	line-height: 1.618;
+}
+
+#profilepic {
+	width: 125px;
+	height:125px;
+	border-radius: 4em;
+	background-color: white;
+	position: relative;
+}
+
+.aboutwrapper {
+	width: 50%;
+	display: block;
+	margin: 0 auto;
+}
+
+.aboutrow {
+	float:left;
+	padding: 1.618em;
+}
+
+@media only screen and (max-width: 768px) {
+body{
+font-size: 14px;
+}
+
+@media only screen and (max-width: 480px) {
+body{
+font-size: 13px;
+}
