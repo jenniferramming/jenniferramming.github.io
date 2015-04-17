@@ -155,7 +155,7 @@ height: 0;
 
 }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 320px) {
 .aboutrow {
 float: none;
 }
