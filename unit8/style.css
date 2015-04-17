@@ -31,6 +31,8 @@ h1 {
 	font-weight: 400;
 	padding: .75em 0em 1.25em 0em;
 	text-align: center;
+	margin-top: 100px;
+	line-height: 1.4em;
 }
 
 h3 {
@@ -64,8 +66,8 @@ ul {
 }
 
 .wrapper {
-	width: 80%;
-	margin: 0 auto;
+	width: 75%;
+	margin: 100px auto;
 }
 
 #contact {
@@ -78,12 +80,19 @@ ul {
 
 .container {
 	background:white;
-	width: 275px;
-	padding: 1em;
+	width: 31.33%;
+	padding: .75em;
 	border: .1em #838b8b solid;
 	border-radius: .5em;
-	margin: 1.618em;
+	margin: 1%;
 	float: left;
+}
+
+.container img {
+	width: 100%;
+	max-width: 275px;
+	display: block;
+	margin: 0 auto;
 }
 
 .clearfix:after { 
@@ -95,14 +104,9 @@ clear: both;
 height: 0; 
 }
 
-.row {
-	display: block;
-
-}
 
 #bottombar{
 	background-color: #203367;
-	height:175px;
 	width:100%;
 	margin-top: 3em;
 }
@@ -110,7 +114,7 @@ height: 0;
 #abouttext {
 	color: white;
 	line-height: 1.618em;
-	margin-top: 1.618em;
+
 }
 
 #profilepic {
@@ -132,13 +136,53 @@ height: 0;
 	padding: 1.618em;
 }
 
-@media only screen and (max-width: 768px) {
-body{
-font-size: 14px;
+@media only screen and (max-width: 855px) {
+
+.container {
+	background:white;
+	width: 45%;
+	padding: 1em;
+	border: .1em #838b8b solid;
+	border-radius: .5em;
+	margin: 2%;
+	float: left;
 }
 
-@media only screen and (max-width: 480px) {
-body{
-font-size: 13px;
+.wrapper {
+	width: 75%;
+	margin: 200px auto 75px;
+}
+
+}
+
+@media only screen and (max-width: 500px) {
+.aboutrow {
 float: none;
+}
+
+#profilepic {
+	margin:0 auto;
+}
+
+.container {
+	background:white;
+	width: 100%;
+	padding: 1em;
+	border: .1em #838b8b solid;
+	border-radius: .5em;
+	margin: 5% auto;
+	float: none;
+}
+
+.wrapper {
+	width: 75%;
+	margin: 250px auto 75px;
+}
+
+#bottombar{
+	background-color: #203367;
+	width:100%;
+	margin-top: 2em;
+}
+
 }
