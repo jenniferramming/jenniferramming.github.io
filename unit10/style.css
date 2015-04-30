@@ -4,10 +4,6 @@ body{
 	font-size: 16px;
 }
 
-header{
-	height:23%;
-}
-
 
 #topbar{
 	background-color: #203367;
@@ -180,7 +176,7 @@ height: 0;
 
 @media only screen and (min-width: 320px) and (max-width: 641px) {
 
-.aboutrow {
+.aboutcol {
 float: none;
 
 }
@@ -209,12 +205,6 @@ float: none;
 	background-color: #203367;
 	width:100%;
 	margin-top: 2em;
-}
-
-.aboutcol section {
-	width: 100%;
-	margin: 0 auto;
-	border: 1px solid blue;
 }
 
 }
