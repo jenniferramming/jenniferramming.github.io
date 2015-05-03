@@ -79,6 +79,7 @@ ul {
 	border-radius: 1em;
 	margin: 1%;
 	float: left;
+	max-width: 330px;
 }
 
 .container img {
@@ -115,7 +116,6 @@ height: 0;
 .aboutwrapper {
 	width: 75%;
 	margin: 0 auto;
-	border: 1px solid green;
 	line-height: 1.68em;
 	color: #fff;
 	padding: 1%
@@ -123,21 +123,51 @@ height: 0;
 
 .aboutcol {
 	float: left;
-	border: 1px solid red;
-	width: 38%;
-}
-
-.aboutcol img{
-
-}
-
-.aboutcolright {
-	border: 1px solid blue;
+	margin-right: 5%;
 }
 
 
+.portfoliowrapper {
+	width: 100%;
+	margin: 0 auto;
+	background: #fff;
+}
 
-@media only screen and (min-width: 792px) and (max-width: 1081px) {
+.portfolioimage {
+	margin: 0 auto;
+	width: 700px;
+	padding: 8% 0 0;
+
+}
+
+#portfoliotopbar{
+	background-color: #203367;
+	height:100px;
+	width:100%;
+}
+
+#portfoliologo{
+	width:135px;
+	margin: 0 auto;
+	top: 50%;
+	position: relative;
+
+}
+
+#portfoliologo a{
+	border: 0px;
+
+}
+
+ul li{
+	display: inline-block;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	float: right;
+	padding: 1em;
+}
+
+@media only screen and (min-width: 792px) and (max-width: 1100px) {
 
 .container {
 	background:white;
@@ -197,7 +227,7 @@ float: none;
 }
 
 .wrapper {
-	width: 75%;
+	width: 93%;
 	margin: 0 auto;
 }
 
@@ -206,5 +236,22 @@ float: none;
 	width:100%;
 	margin-top: 2em;
 }
+
+.aboutcol {
+	float: none;
+	width: 100%;
+}
+
+.aboutcol img, h3{
+	float: none;
+}
+
+.portfolioimage {
+	margin: 0 auto;
+	width: 800px;
+	padding: 8% 0 0;
+
+}
+
 
 }
