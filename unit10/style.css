@@ -7,12 +7,12 @@ body{
 
 #topbar{
 	background-color: #203367;
-	height:175px;
+	height:135px;
 	width:100%;
 }
 
 #logo{
-	width:200px;
+	width:135px;
 	margin: 0 auto;
 	position: relative;
 	top: 50%;
