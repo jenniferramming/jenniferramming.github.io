@@ -7,12 +7,12 @@ body{
 
 #topbar{
 	background-color: #203367;
-	height:135px;
+	height: 125px;
 	width:100%;
 }
 
 #logo{
-	width:135px;
+	width:124px;
 	margin: 0 auto;
 	position: relative;
 	top: 50%;
@@ -25,7 +25,7 @@ h1 {
 	font-weight: 400;
 	padding: .25em 0em 1em 0em;
 	text-align: center;
-	margin-top: 100px;
+	margin-top: 90px;
 	line-height: 1.618em;
 }
 
@@ -50,14 +50,12 @@ p{
 a {
 	color: #203367;
 	text-decoration: none;
-	border-bottom: 2px solid #203367;
 	padding-bottom: 2px;
 
 }
 
 a:hover {
-	color: #528b8b;
-	border-bottom: 2px solid #528b8b;
+	border-bottom: 2px solid #203367;
 }
 
 ul {
@@ -78,9 +76,8 @@ ul {
 }
 
 .container {
-	background:white;
+	background: #fff;
 	width: 31.33%;
-	border: 1em #fff solid;
 	border-radius: 1em;
 	margin: 1%;
 	float: left;
@@ -92,13 +89,14 @@ ul {
 	max-width: 275px;
 	display: block;
 	margin: 0 auto;
-	border: .25em solid #d3d3d3;
 	border-radius: 1em;
 }
 
 .container p {
-	margin-top: 1em;
-
+	background: #203367;
+	color: #fff;
+	padding: 1em;
+	border-radius: 0 0 1em 1em;
 }
 
 .clearfix:after { 
@@ -117,18 +115,36 @@ height: 0;
 	margin-top: 3em;
 }
 
+#contactbar {
+	background-color: #203367;
+	width:100%;
+	height: 80px;
+	margin-top: 8%;
+	color: #fff;
+	padding: 2em;
+	text-align: center;
+}
+
+#contactbar a {
+	color: #fff;
+}
+
+#contactbar a:hover {
+	border-bottom: 2px solid #fff;
+}
 
 .aboutwrapper {
 	width: 75%;
 	margin: 0 auto;
 	line-height: 1.68em;
 	color: #fff;
-	padding: 1%
+	padding: .5em;
 }
 
 .aboutcol {
 	float: left;
 	margin-right: 5%;
+
 }
 
 .portfoliowrapper {
@@ -152,7 +168,7 @@ height: 0;
 
 #portfoliotopbar{
 	background-color: #203367;
-	height:100px;
+	height:80px;
 	width:100%;
 }
 
@@ -170,10 +186,11 @@ height: 0;
 }
 
 section {
-	width: 95%;
+	width: 100%;
 	margin: 0 auto;
-	max-width: 750px;
+	max-width: 770px;
 }
+
 
 ul li{
 	display: inline-block;
@@ -208,8 +225,8 @@ float: none;
 	width: 100%;
 	border: 1em #fff solid;
 	border-radius: 1em;
-	margin: 12% auto 3%;
-	max-width: 750px;
+	margin: 5% auto 3%;
+	max-width: 775px;
 }
 
 .bigcontainer img {
@@ -223,12 +240,12 @@ float: none;
 @media only screen and (min-width: 792px) and (max-width: 1100px) {
 
 .container {
-	background:white;
+	background: #fff;
 	width: 45%;
-	border: 1em #fff solid;	
 	border-radius: 1em;
-	margin: 2%;
+	margin: 1%;
 	float: left;
+	max-width: 330px;
 }
 
 
@@ -238,7 +255,7 @@ float: none;
 }
 
 .portfoliowrapper {
-	width: 80%;
+	width: 90%;
 	margin: 0 auto;
 }
 
@@ -246,13 +263,14 @@ float: none;
 }
 
 @media only screen and (min-width: 642px) and (max-width: 791px) {
+
 .container {
-	background:white;
+	background: #fff;
 	width: 45%;
-	border: 1em #fff solid;
 	border-radius: 1em;
 	margin: 2%;
 	float: left;
+	max-width: 330px;
 }
 
 .wrapper {
@@ -265,7 +283,7 @@ float: none;
 	width: 100%;
 	border: 1em #fff solid;
 	border-radius: 1em;
-	margin: 15% auto 3%;
+	margin: 5% auto 3%;
 	max-width: 750px;
 }
 
@@ -292,12 +310,12 @@ float: none;
 }
 
 .container {
-	background:white;
-	width: 100%;
-	border: 1em #fff solid;
+	background: #fff;
+	width: 95%;
 	border-radius: 1em;
 	margin: 0 auto 8%;
 	float: none;
+	max-width: 330px;
 }
 
 .wrapper {
@@ -314,6 +332,8 @@ float: none;
 .aboutcol {
 	float: none;
 	width: 100%;
+	padding: .5em;
+
 }
 
 .aboutcol img, h3{
@@ -323,7 +343,8 @@ float: none;
 .bigcontainer {
 	background:white;
 	width: 100%;
-	margin: 24% auto 3%;
+	margin: 5% auto 3%;
+
 }
 
 
@@ -366,6 +387,7 @@ ul li{
 	display: block;
 	margin: 0 auto;
 
+
 }
 
 #topbar{
@@ -390,6 +412,16 @@ h1 {
 	text-align: center;
 	margin-top: 75px;
 	line-height: 1.618em;
+}
+
+#contactbar {
+	background-color: #203367;
+	width:100%;
+	height: 80px;
+	margin-top: 25%;
+	color: #fff;
+	padding: 2em;
+	text-align: center;
 }
 
 }
