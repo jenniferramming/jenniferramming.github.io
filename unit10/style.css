@@ -368,6 +368,28 @@ ul li{
 
 }
 
+#topbar{
+	background-color: #203367;
+	height: 90px;
+	width:100%;
+}
 
+#logo{
+	width: 135px;
+	margin: 0 auto;
+	position: relative;
+	top: 30%;
+
+}
+
+h1 {
+	font-size: 2em;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	padding: .25em 0em .75em 0em;
+	text-align: center;
+	margin-top: 75px;
+	line-height: 1.618em;
+}
 
 }
