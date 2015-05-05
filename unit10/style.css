@@ -169,13 +169,13 @@ height: 0;
 	background-color: #203367;
 	width:100%;
 	padding: .5em;
-	height: 60px;
+	height: 50px;
 
 }
 
 .logowrapper {
 	width: 100%;
-	margin: .25em 0 0 .25em;
+	margin: .01em 0 0 .25em;
 } 
 
 .logocontainer {
@@ -183,7 +183,7 @@ height: 0;
 }
 
 .logocontainer p {
-	margin: 6% 0 0 8%;
+	margin: 5% 0 0 8%;
 	font-family: 'Oswald', sans-serif;
 	color: white;
 	text-align: left;
@@ -209,6 +209,7 @@ ul li{
 ul#navigation .left {
 	float: left;
 	color: #203367;
+	font-family: 'Open Sans', sans-serif;
 	font-style: italic;
 }
 
