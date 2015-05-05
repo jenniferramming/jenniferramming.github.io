@@ -36,7 +36,7 @@ h3 {
 
 h4 {
 	font-family: 'Open Sans', sans-serif;
-	font-weight: 700;
+	font-weight: 400;
 	font-style: italic;
 }
 
@@ -118,7 +118,7 @@ height: 0;
 #contactbar {
 	background-color: #203367;
 	width:100%;
-	height: 80px;
+	height: 100%;
 	margin-top: 8%;
 	color: #fff;
 	padding: 2em;
@@ -161,34 +161,40 @@ height: 0;
 	max-width: 700px;
 	max-height: 500px;
 	height: 100%;
-	border-radius: 1em;
 }
 
 
 
 #portfoliotopbar{
 	background-color: #203367;
-	height:80px;
 	width:100%;
-}
-
-#portfoliologo{
-	width:135px;
-	margin: 0 auto;
-	top: 50%;
-	position: relative;
+	padding: .5em;
+	height: 7%
 
 }
 
-#portfoliologo a{
-	border: 0px;
+.logowrapper {
+	width: 100%;
+	margin: .25em 0 0 .25em;
+} 
+
+.logocontainer {
+	float: left;
+}
+
+.logocontainer p {
+	margin: 6% 0 0 8%;
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	text-align: left;
+	width: 100%;
 
 }
 
 section {
 	width: 100%;
 	margin: 0 auto;
-	max-width: 770px;
+	max-width: 900px;
 }
 
 
@@ -198,13 +204,12 @@ ul li{
 	font-weight: 400;
 }
 
+
+
 ul#navigation .left {
 	float: left;
 	color: #203367;
-	font-family: 'Oswald', sans-serif;
-	font-weight: 400;
-
-
+	font-style: italic;
 }
 
 ul#navigation .right {
@@ -216,7 +221,7 @@ ul#navigation .right {
 
 }
 
-ul#navigation .center {
+ul.navigation .center {
 float: none;
 }
 
@@ -224,17 +229,16 @@ float: none;
 	background:white;
 	width: 100%;
 	border: 1em #fff solid;
-	border-radius: 1em;
+	border-radius: .5em;
 	margin: 5% auto 3%;
-	max-width: 775px;
+	max-width: 900px;
 }
 
 .bigcontainer img {
 	width: 100%;
-	max-width: 750px;
+	max-width: 900px;
 	display: block;
 	margin: 0 auto;
-	border-radius: 1em;
 }
 
 @media only screen and (min-width: 792px) and (max-width: 1100px) {
@@ -282,7 +286,7 @@ float: none;
 	background:white;
 	width: 100%;
 	border: 1em #fff solid;
-	border-radius: 1em;
+	border-radius: .25em;
 	margin: 5% auto 3%;
 	max-width: 750px;
 }
@@ -342,8 +346,9 @@ float: none;
 
 .bigcontainer {
 	background:white;
-	width: 95%;
+	width: 100%;
 	margin: 5% auto 3%;
+	border-radius: 0;
 
 }
 
@@ -352,7 +357,6 @@ float: none;
 	max-width: 750px;
 	display: block;
 	margin: 0 auto;
-	border-radius: 1em;
 }
 
 
@@ -390,13 +394,6 @@ ul li{
 	font-weight: 400;
 }
 
-.bigcontainer img {
-	width: 100%;
-	display: block;
-	margin: 0 auto;
-
-
-}
 
 #topbar{
 	background-color: #203367;
@@ -425,7 +422,7 @@ h1 {
 #contactbar {
 	background-color: #203367;
 	width:100%;
-	height: 80px;
+	height: 100%;
 	margin-top: 25%;
 	color: #fff;
 	padding: 2em;
